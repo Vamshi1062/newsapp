@@ -1,23 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
+import CardD from './components/card/CardD';
+import Dashboad from './components/dashboad/Dashboad';
+import NewsMain from './components/NewsMain';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <CardD/> */}
+      {/* <Dashboard/> */}
+      <NewsMain/>
     </div>
   );
 }
